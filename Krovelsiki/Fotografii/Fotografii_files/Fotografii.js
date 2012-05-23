@@ -23,7 +23,7 @@ function onPageLoad()
 IWRegisterNamedImage('movie overlay','../Media/Photo-Overlay-Movie.png')
 loadMozillaCSS('Fotografii_files/FotografiiMoz.css')
 adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');NotificationCenter.addObserver(null,relayoutMediaGrid_id2,'RangeChanged','id2')
-adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');Widget.onload();fixAllIEPNGs('../Media/transparent.gif');fixupAllIEPNGBGs();initializeMediaStream_id2()
+adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');Widget.onload();fixupAllIEPNGBGs();fixAllIEPNGs('../Media/transparent.gif');initializeMediaStream_id2()
 performPostEffectsFixups()}
 function onPageUnload()
 {Widget.onunload();}

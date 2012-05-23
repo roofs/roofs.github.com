@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:5A57DE74-0B43-4B45-9D71-83AEF6A22313</id>
  <title>Page list Atom feed</title>
- <updated>2012-05-24T00:25:59+04:00</updated>
+ <updated>2012-05-24T00:30:32+04:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">Кровельные и плотницкие работы</title>
   <in-navbar xmlns="urn:iweb:">9B92C3B6-5C90-47E7-9784-2EFB2973BC1E</in-navbar>
   <link rel="alternate" href="Krovelnye_i_plotnickie_raboty.html"/>
-  <updated>2012-05-24T00:25:59.001+04:00</updated>
+  <updated>2012-05-24T00:30:32.001+04:00</updated>
   <content>Кровельные и плотницкие работы</content>
  </entry>
  <entry>
@@ -23,7 +23,7 @@
   <title xmlns="urn:iweb:">Фотографии</title>
   <in-navbar xmlns="urn:iweb:">2FCD043D-75DC-470A-BF9E-79DEFAE30576</in-navbar>
   <link rel="alternate" href="Fotografii/Fotografii.html"/>
-  <updated>2012-05-24T00:25:59.002+04:00</updated>
+  <updated>2012-05-24T00:30:32.002+04:00</updated>
   <content>Фотографии</content>
  </entry>
 </feed>
