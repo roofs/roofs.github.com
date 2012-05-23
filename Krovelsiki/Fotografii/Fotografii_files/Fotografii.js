@@ -9,7 +9,7 @@ function layoutMediaGrid_id2(range)
 {createMediaStream_id2().load('http://roofs.github.com/Krovelsiki/Fotografii',function(imageStream)
 {if(range==null)
 {range=new IWRange(0,imageStream.length);}
-IWLayoutPhotoGrid('id2',new IWPhotoGridLayout(1,new IWSize(562,422),new IWSize(562,32),new IWSize(618,469),27,27,0,new IWSize(32,44)),new IWPhotoFrame([IWCreateImage('Fotografii_files/FormalShadow_01.png'),IWCreateImage('Fotografii_files/FormalShadow_02.png'),IWCreateImage('Fotografii_files/FormalShadow_03.png'),IWCreateImage('Fotografii_files/FormalShadow_06.png'),IWCreateImage('Fotografii_files/FormalShadow_12.png'),IWCreateImage('Fotografii_files/FormalShadow_11.png'),IWCreateImage('Fotografii_files/FormalShadow_10.png'),IWCreateImage('Fotografii_files/FormalShadow_04.png')],null,2,1.000000,1.000000,5.000000,1.000000,4.000000,17.000000,17.000000,17.000000,36.000000,4.000000,837.000000,4.000000,837.000000,null,null,null,0.100000),imageStream,range,(null),null,1.000000,null,'../Media/slideshow.html','widget4',null,'widget5',{showTitle:false,showMetric:false})});}
+IWLayoutPhotoGrid('id2',new IWPhotoGridLayout(1,new IWSize(492,369),new IWSize(492,34),new IWSize(618,418),27,27,0,new IWSize(32,44)),new IWPhotoFrame([IWCreateImage('Fotografii_files/FormalShadow_01.png'),IWCreateImage('Fotografii_files/FormalShadow_02.png'),IWCreateImage('Fotografii_files/FormalShadow_03.png'),IWCreateImage('Fotografii_files/FormalShadow_06.png'),IWCreateImage('Fotografii_files/FormalShadow_12.png'),IWCreateImage('Fotografii_files/FormalShadow_11.png'),IWCreateImage('Fotografii_files/FormalShadow_10.png'),IWCreateImage('Fotografii_files/FormalShadow_04.png')],null,2,1.000000,1.000000,5.000000,1.000000,4.000000,17.000000,17.000000,17.000000,36.000000,4.000000,837.000000,4.000000,837.000000,null,null,null,0.100000),imageStream,range,(null),null,1.000000,null,'../Media/slideshow.html','widget4',null,'widget5',{showTitle:false,showMetric:false})});}
 function relayoutMediaGrid_id2(notification)
 {var userInfo=notification.userInfo();var range=userInfo['range'];layoutMediaGrid_id2(range);}
 function onStubPage()
@@ -23,7 +23,7 @@ function onPageLoad()
 IWRegisterNamedImage('movie overlay','../Media/Photo-Overlay-Movie.png')
 loadMozillaCSS('Fotografii_files/FotografiiMoz.css')
 adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');NotificationCenter.addObserver(null,relayoutMediaGrid_id2,'RangeChanged','id2')
-adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');Widget.onload();fixAllIEPNGs('../Media/transparent.gif');fixupAllIEPNGBGs();initializeMediaStream_id2()
+adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');detectBrowser();Widget.onload();fixAllIEPNGs('../Media/transparent.gif');fixupAllIEPNGBGs();initializeMediaStream_id2()
 performPostEffectsFixups()}
 function onPageUnload()
 {Widget.onunload();}
